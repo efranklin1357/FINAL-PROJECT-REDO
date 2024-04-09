@@ -1,0 +1,291 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Roboto:wght@400;500;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "inter", "system-ui";
+}
+
+.row {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+p {
+  line-height: 1.5;
+  color: #243e63;
+}
+
+nav {
+  height: 80px;
+  display: flex;
+}
+
+.img {
+  width: 100%;
+}
+
+.nav__container {
+  width: 100%;
+
+  max-width: 1200px;
+  padding: 32px 32px 0 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+
+ul {
+  display: flex;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+}
+
+.blue {
+  color: #6415ff;
+}
+
+.logo__link {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  font-weight: 900;
+  color: #243e63;
+  text-decoration: none;
+  letter-spacing: 0.025em;
+}
+
+.logo {
+  width: 40px;
+  margin-right: 12px;
+}
+
+.nav__links {
+  letter-spacing: 0.025em;
+}
+
+.nav__link {
+  font-size: 14px;
+  margin: 0 24px;
+  color: rgba(0, 0, 0, 0.836);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.nav__link--primary {
+  font-size: 14px;
+  background-color: #6415ff;
+  border-radius: 99px;
+  padding: 12px 32px;
+  color: white;
+}
+.nav__link--styled {
+  margin: 0 4px 0 48px;
+}
+
+/*
+
+HEADER
+
+*/
+
+header {
+  
+  display: flex;
+}
+
+.header__container {
+  padding: 96px 32px;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 100%;
+}
+
+.header__description {
+  
+
+  display: flex;
+  align-items: center;
+}
+
+.header__info {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+
+.header__heading {
+    font-size: 48px;
+}
+
+.header__para {
+    margin: 32px 0;
+    font-weight: 450;
+}
+
+.gQkmRz input {
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    padding-right: 12rem;
+}
+
+.gQkmRz input {
+    width: 100%;
+    border-radius: 9999px;
+    border-width: 2px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    font-weight: 500;
+    transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
+    transition-duration: 300ms;
+}
+
+button, input, optgroup, select, textarea {
+    font-family: inherit;
+    font-size: 100%;
+    font-weight: inherit;
+    line-height: inherit;
+    color: inherit;
+    margin: 0px;
+    padding: 0px;
+}
+
+.gQkmRz button {
+    position: relative;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    width: 10rem;
+    line-height: 1;
+}
+
+.gQkmRz button {
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-right: 0.5rem;
+    display: flex;
+    width: 100%;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    border-radius: 9999px;
+    --tw-bg-opacity: 1;
+    background-color: rgb(100 21 255 / var(--tw-bg-opacity));
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-weight: 700;
+    --tw-text-opacity: 1;
+    color: rgb(247 250 252 / var(--tw-text-opacity));
+    transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
+    transition-duration: 300ms;
+
+
+}
+
+
+button, [role="button"] {
+    cursor: pointer;
+}
+
+button, [type="button"], [type="reset"], [type="submit"] {
+    appearance: button;
+    background-color: transparent;
+    background-image: none;
+}
+
+button, select {
+    text-transform: none;
+}
+
+button, input, optgroup, select, textarea {
+    font-family: inherit;
+    font-size: 100%;
+    font-weight: inherit;
+    line-height: inherit;
+    color: inherit;
+    margin: 0px;
+    padding: 0px;
+}
+
+.customers--para {
+  color: #243e63;
+  font-weight: 700;
+  opacity: .5;
+  font-size: 12px;
+  margin-top: 56px;
+}
+
+.logo__strip {
+  width: 400px;
+  opacity: 0.5;
+  margin: 8px 0 0;
+}
+
+.desk__logo {
+  width: 600px;
+  max-width: fit-content;
+}
+
+.desk__logo--wrapper {
+  width: 60%;
+}
+
+/*
+
+FEATURES
+
+*/
+
+.features__container {
+    padding: 80px;
+  height: 100vh;
+  
+}
+
+.features__heading {
+   padding: 0 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.features--para {
+    margin: 16px 0 0;
+    max-width: 550px;
+    text-align: center;
+}
+
+.services {
+   margin-top: 48px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gZAxaw {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.service {
+    margin: 0 16px;
+    padding: 32px 8px;
+    
+    display: flex;
+    width: calc(100% / 3);
+} 
